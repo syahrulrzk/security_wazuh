@@ -90,3 +90,6 @@ root@homelab:/home/wazuh# ./wazuh-install.sh -a
 01/04/2026 11:33:33 INFO: Installation finished.
 root@homelab:/home/wazuh#
 '''
+
+<img width="1876" height="991" alt="image" src="https://github.com/user-attachments/assets/b5d4424e-8197-4ac0-9fce-c49268438831" />
+
