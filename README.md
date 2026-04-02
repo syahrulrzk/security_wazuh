@@ -28,9 +28,9 @@ Pastikan server memenuhi minimum requirement:
 ```bash
 git clone https://github.com/syahrulrzk/security_wazuh.git
 cd security_wazuh
+```
 
-
-'''
+```
 root@homelab:/home/wazuh# ./wazuh-install.sh -a
 01/04/2026 10:23:12 INFO: Starting Wazuh installation assistant. Wazuh version: 4.14.4
 01/04/2026 10:23:12 INFO: Verbose logging redirected to /var/log/wazuh-install.log
@@ -89,7 +89,13 @@ root@homelab:/home/wazuh# ./wazuh-install.sh -a
     Password: S7oRgXNy*4k6teUaG?ylANgorrCXkp*8
 01/04/2026 11:33:33 INFO: Installation finished.
 root@homelab:/home/wazuh#
-'''
+```
 
-<img width="1876" height="991" alt="image" src="https://github.com/user-attachments/assets/b5d4424e-8197-4ac0-9fce-c49268438831" />
+Enable semua service Wazuh
+```
+systemctl enable wazuh-manager
+systemctl enable wazuh-indexer
+systemctl enable wazuh-dashboard
+```
+
 
