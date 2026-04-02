@@ -86,7 +86,7 @@ root@homelab:/home/wazuh# ./wazuh-install.sh -a
 01/04/2026 11:33:32 INFO: --- Summary ---
 01/04/2026 11:33:32 INFO: You can access the web interface https://<wazuh-dashboard-ip>:443
     User: admin
-    Password: S7oRgXNy*4k6teUaG?ylANgorrCXkp*8
+    Password: CbBPbs3IJXwMUekQAn8eXu+c3Z7vR*nE
 01/04/2026 11:33:33 INFO: Installation finished.
 root@homelab:/home/wazuh#
 ```
